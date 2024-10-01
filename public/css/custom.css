@@ -1,0 +1,115 @@
+body{
+	overflow-y: hidden;
+}
+.title-div,.des-div{
+    margin-bottom: 10px;
+}
+.main{
+    margin: 15px;
+}
+.export-div{
+    text-align: right;
+}
+.title{
+    border: 1px solid;
+}
+.modal-div{
+    margin: 15px;
+}
+.center-text{
+    text-align: center;
+}
+.container-cus{
+	width: auto;
+	overflow: auto;
+	/*height: 100vh;*/
+	display: inline-flex;
+	    padding: 8px 15px;
+}
+.title-header{
+	text-align: center;
+}
+.Cards-col{
+	min-width: 250px;
+	width: 250px;
+	border: 2px solid #000;
+	border-radius: 6px;
+	padding: 10px 6px 0px 6px;
+	margin-right: 10px;
+	margin-left: 10px;
+	max-height: 87.5vh;
+    overflow-y: auto;
+}
+.Cards-col-h{
+	margin-top: 0;
+}
+.Card{
+	border: 2px solid #000;
+    border-radius: 6px;
+    padding: 10px 6px;
+        margin-top: 15px;
+    margin-bottom: 15px;
+    cursor: all-scroll;
+}
+.Card-header-h{
+	margin-top: 0;
+}
+.Cards-col-main{
+	height: 100vh;
+}
+/* width */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 5px grey;
+  border-radius: 10px;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #555;
+  border-radius: 10px;
+}
+
+.close {
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 32px;
+    height: 32px;
+    opacity: 0.3;
+}
+.close:hover {
+    opacity: 1;
+}
+.close:before, .close:after {
+    position: absolute;
+    left: 15px;
+    content: ' ';
+    height: 15px;
+    width: 2px;
+    background-color: #333;
+}
+.close:before, .close:after {
+    position: absolute;
+    left: 15px;
+    content: ' ';
+    height: 15px;
+    width: 2px;
+    background-color: #333;
+}
+.close:after {
+    transform: rotate(-45deg);
+}
+.close:before {
+    transform: rotate(45deg);
+}
+.Cards-col-header{
+	position: relative;
+}
+.Card-header{
+	position: relative;
+}
